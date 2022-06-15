@@ -1,0 +1,8 @@
+---
+- name: debugando erro de senha sudo
+  hosts: all
+  become: true
+  tasks:
+    - name: root test
+      ansible.builtin.debug:
+        msg: "Previlégios estão OK"
