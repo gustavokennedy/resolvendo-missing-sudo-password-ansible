@@ -64,7 +64,7 @@ ls -al /etc/sudoers.d/
 Altere o seguinte arquivo, trocando [usuario] pelo seu usuário do servidor.
 Insira a seguinte linha:
 
-usuario ALL=(ALL) NOPASSWD: ALL
+<b>usuario ALL=(ALL) NOPASSWD: ALL</b>
 
 ```
 vim /etc/sudoers.d/usuario
